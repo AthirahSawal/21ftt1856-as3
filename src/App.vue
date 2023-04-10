@@ -9,8 +9,12 @@ import HelloWorld from './components/HelloWorld.vue'
       <img class="h-48 w-full object-cover md:h-full md:w-48" src="pictures.jpg" alt="Modern building architecture">
     </div>
     <div class="p-8">
+      <br>
       <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Nurathirah binti Sawal</div>
+      <br>
       <a class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Level 5 Diploma in Web Development</a>
+      <br>
+      <p class="mt-2 text-slate-500">Politeknik Brunei</p>
       
     </div>
   </div>
