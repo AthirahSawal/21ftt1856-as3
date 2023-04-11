@@ -4,21 +4,18 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
 
-  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl bg-lime-100">
-  <div class="md:flex">
-    <div class="md:shrink-0">
-      <img class="h-48 w-full object-cover md:h-full md:w-48" src="pictures.jpg" alt="Modern building architecture">
+<div class="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800 bg-green-50">
+    <div class="flex justify-center -mt-16 md:justify-end">
+        <img class="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400" alt="Testimonial avatar" src="pictures.jpg">
     </div>
-    <div class="p-8">
-      <br>
-      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Nurathirah binti Sawal</div>
-      <br>
-      <a class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Level 5 Diploma in Web Development</a>
-      <br>
-      <p class="mt-2 text-slate-500">Politeknik Brunei</p>
-      
+
+    <h2 class="mt-2 text-xl font-semibold text-gray-800 dark:text-white md:mt-0">Nurathirah binti Sawal</h2>
+
+    <p class="mt-2 text-sm text-gray-600 dark:text-gray-200">Currently studying in Politeknik Brunei and taking Level 5 Diploma in Web Development</p>
+
+    <div class="flex justify-end mt-4">
+      <a href="#" class="text-lg font-medium text-blue-600 dark:text-blue-300" tabindex="0" role="link">21FTT1856@student.pb.edu.bn</a>
     </div>
-  </div>
 </div>
 
 </template>
